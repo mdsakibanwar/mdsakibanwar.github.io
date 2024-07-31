@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# About Me
-=======================
 
 I am a Bangladeshi and Muslim, with a deep-rooted passion for computer science. I completed my undergraduate studies in Computer Science and Engineering (CSE) from the University of Dhaka in 2019. Following my graduation, I worked as a software engineer for two years, honing my skills and gaining valuable industry experience.
 
