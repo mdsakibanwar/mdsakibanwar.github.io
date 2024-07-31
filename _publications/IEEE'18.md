@@ -2,7 +2,7 @@
 title: "A comparative study on Gaussian process regression-based indoor positioning systems"
 collection: publications
 permalink: /publication/IEEE'18
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'Gaussian Process Regression (GPR) is highly accurate for predicting online radio maps in fingerprinting-based localization, but its accuracy depends on the mean function used; this paper compares various Indoor Positioning Systems (IPS) with GPR mean functions and introduces two new neural network-based mean functions that outperform traditional ones.'
 date: 2018-12-27
 venue: '2018 International Conference on Innovation in Engineering and Technology (ICIET)'
 # slidesurl: 'http://mdsakibanwar.github.io/files/slides1.pdf'
