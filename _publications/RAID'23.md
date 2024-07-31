@@ -2,7 +2,7 @@
 title: "Extracting Threat Intelligence From Cheat Binaries For Anti-Cheating"
 collection: publications
 permalink: /publication/RAID'23
-excerpt: 'Gaussian Process Regression (GPR) is highly accurate for predicting online radio maps in fingerprinting-based localization, but its accuracy depends on the mean function used; this paper compares various Indoor Positioning Systems (IPS) with GPR mean functions and introduces two new neural network-based mean functions that outperform traditional ones.'
+excerpt: 'Rampant cheating in games drives developers to seek solutions, leading to the creation of CheatFighter, an automated system that extracts intelligence from cheat binaries to randomize data, effectively countering 80 out of 86 real-world cheats in under a minute for Android and Windows games.'
 date: 2023-10-16
 venue: 'Proceedings of the 26th International Symposium on Research in Attacks, Intrusions and Defenses'
 slidesurl: 'http://mdsakibanwar.github.io/files/Cheatfighter_Presentation.pdf'
