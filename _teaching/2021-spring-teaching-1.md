@@ -9,4 +9,4 @@ location: "Columbus, Ohio, USA"
 instructor: "John Wilcox"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+As a Teaching Assistant for CSE 1222: Introduction to C++ Programming, I enhanced students' learning experiences by conducting interactive lab sessions, demonstrating coding techniques, and providing hands-on guidance through exercises and projects. Specifically, being online helping students create an environment that they can be productive in was essential.
