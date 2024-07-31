@@ -5,7 +5,7 @@ permalink: /publication/RAID'23
 excerpt: 'Rampant cheating in games drives developers to seek solutions, leading to the creation of CheatFighter, an automated system that extracts intelligence from cheat binaries to randomize data, effectively countering 80 out of 86 real-world cheats in under a minute for Android and Windows games.'
 date: 2023-10-16
 venue: 'Proceedings of the 26th International Symposium on Research in Attacks, Intrusions and Defenses'
-slidesurl: 'http://mdsakibanwar.github.io/files/Cheatfighter_Presentation.pdf'
+slidesurl: 'http://mdsakibanwar.github.io/files/CheatFighter_Presentation.pdf'
 paperurl: 'http://mdsakibanwar.github.io/files/cheatfighter.pdf'
 citation: 'Md Sakib Anwar, Chaoshun Zuo, Carter Yagemann, and Zhiqiang Lin. 2023. Extracting Threat Intelligence From Cheat Binaries For Anti-Cheating. In Proceedings of the 26th International Symposium on Research in Attacks, Intrusions and Defenses (RAID '23). Association for Computing Machinery, New York, NY, USA, 17–31. https://doi.org/10.1145/3607199.3607211'
 ---
