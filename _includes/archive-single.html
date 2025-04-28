@@ -52,18 +52,30 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+    {% if page.citation %}
+    <p style="font-size: smaller">
+      Recommended citation: {{ page.citation }}
+      {% if page.paperurl or page.slidesurl or page.githuburl or page.dockerurl %}
+      <br />
+      {% if page.paperurl %}
+      <a href="{{ page.paperurl }}" target="_blank">Download Paper</a>
+      {% endif %}
+      {% if page.slidesurl %}
+      {% if page.paperurl %} | {% endif %}
+      <a href="{{ page.slidesurl }}" target="_blank">Download Slides</a>
+      {% endif %}
+      {% if page.githuburl %}
+      {% if page.paperurl or page.slidesurl %} | {% endif %}
+      <a href="{{ page.githuburl }}" target="_blank">View on GitHub</a>
+      {% endif %}
+      {% if page.dockerurl %}
+      {% if page.paperurl or page.slidesurl or page.githuburl %} | {% endif %}
+      <a href="{{ page.dockerurl }}" target="_blank">View on Docker Hub</a>
+      {% endif %}
+      {% endif %}
+    </p>
+    {% elsif page.slidesurl %}
+    <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
     {% endif %}
 
   </article>
