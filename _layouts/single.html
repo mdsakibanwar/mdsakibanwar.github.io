@@ -47,17 +47,32 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% if page.citation %}
+        <p style="font-size: smaller">
+          Recommended citation: {{ page.citation }}
+          {% if page.paperurl or page.slidesurl or page.githuburl or page.dockerurl %}
+          <br />
+          {% if page.paperurl %}
+          <a href="{{ page.paperurl }}" target="_blank">Download Paper</a>
+          {% endif %}
+          {% if page.slidesurl %}
+          {% if page.paperurl %} | {% endif %}
+          <a href="{{ page.slidesurl }}" target="_blank">Download Slides</a>
+          {% endif %}
+          {% if page.githuburl %}
+          {% if page.paperurl or page.slidesurl %} | {% endif %}
+          <a href="{{ page.githuburl }}" target="_blank">View on GitHub</a>
+          {% endif %}
+          {% if page.dockerurl %}
+          {% if page.paperurl or page.slidesurl or page.githuburl %} | {% endif %}
+          <a href="{{ page.dockerurl }}" target="_blank">View on Docker Hub</a>
+          {% endif %}
+          {% endif %}
+        </p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
+
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
