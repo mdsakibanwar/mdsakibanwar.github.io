@@ -26,6 +26,10 @@ main:
   - title: "Resume"
     url: /files/resume.pdf
     external: true
+
+  - title: "Mentorships"
+    url: /mentorships/
+    
     
   # - title: "Guide"
   #   url: /markdown/
