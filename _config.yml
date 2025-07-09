@@ -212,7 +212,7 @@ collections:
     permalink: /:collection/:path/
   mentorships:
     output: true
-    permalink: /mentorships/:path/
+    permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
