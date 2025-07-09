@@ -210,6 +210,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  mentorships:
+    output: true
+    permalink: /mentorships/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
