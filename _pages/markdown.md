@@ -19,6 +19,7 @@ redirect_from:
   * _portfolio/
   * _posts/
   * _teaching/
+  * _mentorships/
   * _talks/
 * Footer: _includes/footer.html
 * Static files (like PDFs): /files/
@@ -453,4 +454,3 @@ This allows you to denote <var>variables</var>.
 **Footnotes**
 
 The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
