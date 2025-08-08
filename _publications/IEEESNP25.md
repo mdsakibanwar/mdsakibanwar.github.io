@@ -5,7 +5,7 @@ permalink: /publication/IEEESNP25
 excerpt: 'Inductive constraint reasoning is proposed to evaluate nontermination in Go programs, revealing five new vulnerabilities in the Go standard library.'
 date: 2025-05-12
 venue: '46th IEEE Symposium on Security and Privacy'
-# slidesurl: 'http://mdsakibanwar.github.io/files/CheatFighter_Presentation.pdf'
+slidesurl: 'http://mdsakibanwar.github.io/files/GoSonar_Presentation.pdf'
 paperurl: 'http://mdsakibanwar.github.io/files/GoSonar.pdf'
 citation: "M. S. Anwar, C. Yagemann and Z. Lin, \"GoSonar: Detecting Logical Vulnerabilities in Memory Safe Language Using Inductive Constraint Reasoning,\" in 2025 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA, 2025, pp. 43-43, doi: 10.1109/SP61157.2025.00043."
 keywords: {symbolic execution;memory safety;nontermination}
