@@ -27,6 +27,10 @@ main:
     url: /files/cv.pdf
     external: true
 
+  - title: "Resume"
+    url: /files/resume.pdf
+    external: true
+
   - title: "Mentorships"
     url: /mentorships/
     
