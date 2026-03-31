@@ -4,7 +4,10 @@ collection: publications
 permalink: /publication/ACSAC25
 excerpt: 'VerDiff introduces a novel signature-matching framework to accurately identify all software versions affected by a vulnerability, correcting 265 misclassifications in official advisories.'
 date: 2025-12-08
-venue: 'Annual Computer Security Applications Conference (ACSAC)'
+venue: '2025 IEEE Annual Computer Security Applications Conference (ACSAC)'
+slidesurl: 'http://mdsakibanwar.github.io/files/VerDiff_Presentation.pdf'
+paperurl: 'http://mdsakibanwar.github.io/files/VerDiff.pdf'
+citation: "M. S. Anwar, C. Yagemann and Z. Lin, \"VerDiff: Vulnerability Presence Verification for Comprehensive Reporting Using Constraint Programming,\" 2025 IEEE Annual Computer Security Applications Conference (ACSAC), Honolulu, HI, USA, 2025, pp. 77-91, doi: 10.1109/ACSAC67867.2025.00022."
 keywords: {vulnerability management;constraint programming;software versioning}
 githuburl: 'https://github.com/mdsakibanwar/verdiff'
 dockerurl: 'https://hub.docker.com/r/sakibanwar/verdiff'
