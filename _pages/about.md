@@ -7,12 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I recently earned my PhD from **The Ohio State University**, where I was privileged to be co-advised by [Dr. Zhiqiang Lin](https://zhiqlin.github.io/) and [Dr. Carter Yagemann](https://carteryagemann.com/). My research focuses on program analysis at both the binary and source code levels, with a particular emphasis on vulnerability detection. I am especially interested in exploring static and dynamic analysis techniques to uncover complex logical vulnerabilities in memory-safe languages, a growing area of importance as the software industry moves away from traditional memory-unsafe languages.
+I recently joined [Imperial Global Singapore](https://www.imperial.ac.uk/singapore/) as a Research Fellow, working on the [AI4PR](https://ai4pr.github.io/) project under the supervision of [Prof. Cristian Cadar](https://www.doc.ic.ac.uk/~cristic/). My research sits at the intersection of program analysis and AI-assisted reasoning, with a focus on using large language models to extend the reach and scalability of traditional program analysis techniques for vulnerability discovery and remediation.
 
-I am originally from Bangladesh and identify as a practicing Muslim. My passion for computer science is both personal and deeply rooted. I earned my undergraduate degree in Computer Science and Engineering (CSE) from the University of Dhaka in 2019. After graduation, I worked as a software engineer for two years, gaining practical industry experience that continues to inform my research.
+I earned my PhD from **The Ohio State University**, where I was privileged to be co-advised by [Dr. Zhiqiang Lin](https://zhiqlin.github.io/) and [Dr. Carter Yagemann](https://carteryagemann.com/). My doctoral work developed a principled pipeline for logical vulnerability assessment in memory-safe languages, spanning detection, semantic modeling, and automated proof-of-concept generation.
 
-In 2021, I began my PhD journey at The Ohio State University, driven by a desire to contribute to the development of secure and robust software systems. With the continued mentorship of my advisors, I am committed to advancing the state of the art in program analysis.
+I am originally from Bangladesh and identify as a practicing Muslim. I earned my undergraduate degree in Computer Science and Engineering from the [University of Dhaka](https://www.du.ac.bd/), after which I worked as a software engineer for two years before beginning my PhD.
 
-**I am actively seeking opportunities in academia**, including **postdoctoral positions** and **tenure-track roles as an Assistant Professor**. I am eager to bring my research expertise, teaching experience, and collaborative mindset to an academic institution where I can continue to make meaningful contributions in both research and education.
-
-If you are aware of any suitable openings or would like to collaborate, please feel free to reach out!
+If you are interested in collaborating or would like to discuss research, feel free to [reach out](mailto:sakib.anwar@imperial.ac.uk)!

@@ -26,11 +26,11 @@ author:
   avatar           : "dp.png"
   name             : "Md Sakib Anwar"
   pronouns         : # example: "she/her"  
-  bio              : "PhD in Computer Science | Software Security Researcher | Cinephile | Pseudo Smart"
-  location         : "Columbus, Ohio, USA"
-  employer         : "The Ohio State University"
-  uri              : # https://www.osu.edu/
-  email            : "anwar.40@osu.edu" 
+  bio              : "Software Security Researcher | Cinephile | Pseudo Smart"
+  location         : "Singapore"
+  employer         : "Imperial Global Singapore"
+  uri              : # https://www.imperial.ac.uk/about/global/singapore/
+  email            : "sakib.anwar@imperial.ac.uk" 
 
   # Academic websites
   academia         : # URL
